@@ -3,7 +3,7 @@ This is a todo list app created with HTML, SCSS, and Jquery...
 
 * Screenshot
 
-![Screenshot (3)](https://user-images.githubusercontent.com/60876346/236535826-fb3b751c-f90a-498f-84ff-0a6a1a659a8c.png)
+![Screenshot (4)](https://user-images.githubusercontent.com/60876346/236550468-b2261964-36ee-4b98-a4b9-a28627df1608.png)
 
 ## Built With
 
@@ -19,7 +19,7 @@ This is a todo list app created with HTML, SCSS, and Jquery...
 
 ## Project Description
 
-* "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
+* "Ade's Todo App" is a simple website that displays a list of tasks and allows you to add and remove task from that list. By building this application, you will learn how to manage data using Jquery. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
 
 ## Getting Started
 
@@ -27,7 +27,7 @@ This is a todo list app created with HTML, SCSS, and Jquery...
 
 * To get the content of this project locally you need to run this command in your terminal:
 
-- `https://github.com/Adewunmi97/Todo-List`
+- `https://github.com/Adewunmi97/Todo-list`
 
 
 ## Author
