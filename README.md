@@ -14,7 +14,7 @@ This is a todo list app created with HTML, SCSS, and Jquery...
 
 ## Live Demo
 
-[Live Demo Link](https://adewunmi97.github.io/Todo_List.github.io/)
+[Live Demo Link](https://adewunmi97.github.io/Todo-list.github.io/)
 
 
 ## Project Description
