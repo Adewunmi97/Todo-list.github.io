@@ -1,0 +1,125 @@
+@import "./partials/root";
+
+.container {
+    max-width: 43rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    .del_container {
+        display: none;
+        &.open {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .check_box {
+            width: 1.2rem;
+            height: 1.2rem;
+            cursor: pointer;
+        }
+        button {
+            padding: 7px 10px;
+            background: $red;
+            border: none;
+            border-radius: 2px;
+            color: $white;
+        }
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        color: $grey;
+        font-weight: 500;
+    }
+    .message_box {
+        position: relative;
+        .input_task {
+            padding: 17px;
+            border-radius: 10px;
+            outline: none;
+            width: 100%;
+            border: none;
+            box-shadow: 0 10px 10px $shadow;
+            &.input_task[type="text"] {
+                padding-right: 2em;
+                font-size: 18px;
+                color: $dark_grey;
+            }
+            &::placeholder {
+                font-size: 18px;
+            }
+        }
+        .send {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color: $white;
+            width: 2.7rem;
+            height: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 3px;
+            cursor: pointer;
+            background-color: $green;
+            transition: 0.25s ease-in-out;
+            &:hover {
+                background-color: $deep_green;
+            }
+            &:focus {
+                border: 1px solid $light_green;
+            }
+        }
+    }
+    .error {
+        font-style: italic;
+        font-weight: 700;
+        text-align: center;
+        color: $red;
+        font-size: 20px;
+        display: none;
+        &.open {
+            display: block;
+        }
+    }
+    .tasks {
+        width: 100%;
+        li {
+            border-bottom: 1px solid $blue;
+            padding: 15px 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .check_text {
+                display: flex;
+                justify-content: start;
+                gap: 1rem;
+                .check_me {
+                    width: 1.2rem;
+                    cursor: pointer;
+                }
+                p {
+                    color: $dark_grey;
+                    font-size: 18px;
+                }
+            }
+            .trash {
+                display: none;
+                color: $white;
+                background: $blue;
+                font-size: 16px;
+                width: 2rem;
+                height: 2rem;
+                border-radius: 3px;
+                &.show {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

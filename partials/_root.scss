@@ -1,0 +1,26 @@
+$primary: #c6c6ff;
+$green: #198754;
+$deep_green: #146841;
+$light_green: #9dccb6;
+$red: #dc3545;
+$blue: #1b69f8;
+$grey: #6c757d;
+$dark_grey: #30343d;
+$shadow: #b9b9ef;
+$white: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: $primary;
+}
